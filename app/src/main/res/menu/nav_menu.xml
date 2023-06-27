@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view"
+    >
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:title="Perfil"/>
+
+
+        <item
+            android:id="@+id/nav_matches"
+            android:icon="@drawable/sports_soccer_24"
+            android:title="Partidas"/>
+
+        <item
+            android:id="@+id/nav_players"
+            android:icon="@drawable/people_24"
+            android:title="Jogadores"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/nav_settings"
+            android:title="Configuração"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/nav_logout"
+            android:title="Sair"/>
+
+
+    </group>
+
+</menu>

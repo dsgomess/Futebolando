@@ -1,0 +1,191 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		lista
+     *	@date 		Sunday 18th of June 2023 03:06:14 PM
+     *	@title 		Lista
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/lista"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_lista_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__lista_ek2"
+                    android:background="@color/greenbg"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="410dp"
+                    android:layout_height="730dp" />
+
+                <View   android:id="@+id/rectangle2"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="345dp"
+                    android:layout_width="380dp"
+                    android:layout_height="114dp" />
+
+                <View   android:id="@+id/rectangle3"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="469dp"
+                    android:layout_width="380dp"
+                    android:layout_height="114dp" />
+
+                <View   android:id="@+id/rectangle1"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="218dp"
+                    android:layout_width="380dp"
+                    android:layout_height="114dp" />
+
+                <View
+                    android:id="@+id/rectangle_1"
+                    android:layout_width="320dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="108dp"
+                    android:background="@drawable/busca_barra" />
+
+                <ImageView android:id="@+id/searchicon"
+                    android:src="@drawable/baseline_search_24"
+                    android:contentDescription="_9035943_search_sharp_icon_1"
+                    android:layout_marginStart="310dp"
+                    android:layout_marginTop="111dp"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp" />
+
+                <ImageView android:id="@+id/checkbox"
+                    android:src="@drawable/checkboxicon"
+                    android:contentDescription="_8679886_checkbox_blank_line_icon_1"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="149dp"
+                    android:layout_width="29dp"
+                    android:layout_height="34dp" />
+
+                <TextView android:id="@+id/participei"
+
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="154dp"
+                    android:layout_width="134dp"
+                    android:layout_height="58dp"
+                    android:text="Participei"
+                    />
+
+                <ImageView android:id="@+id/campo1"
+                    android:src="@drawable/campo"
+                    android:contentDescription="campodefutebol1"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="212dp"
+                    android:layout_width="95dp"
+                    android:layout_height="98dp" />
+
+                <ImageView android:id="@+id/campo2"
+                    android:src="@drawable/campo"
+                    android:contentDescription="campodefutebol2"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="339dp"
+                    android:layout_width="95dp"
+                    android:layout_height="98dp" />
+
+                <ImageView android:id="@+id/campo3"
+                    android:src="@drawable/campo"
+                    android:contentDescription="campodefutebol3"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="463dp"
+                    android:layout_width="95dp"
+                    android:layout_height="98dp" />
+
+                <TextView android:id="@+id/babadescrição"
+
+                    android:textSize="14sp"
+                    android:shadowRadius="4"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="4"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="132dp"
+                    android:layout_marginTop="223dp"
+                    android:layout_width="224dp"
+                    android:layout_height="128dp"
+                    android:text="Nome do baba A 3km (4/11) jogadores
+
+
+                    Organizado por: fulano 02/05/2023 as 16:30 Rua 12 de janeiro,Girassol "
+                    />
+
+
+
+                <TextView android:id="@+id/babadescrição2"
+
+                    android:textSize="14sp"
+                    android:shadowRadius="4"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="4"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="132dp"
+                    android:layout_marginTop="347dp"
+                    android:layout_width="224dp"
+                    android:layout_height="128dp"
+                    android:text="Nome do baba A 3km (4/11) jogadores
+
+
+                    Organizado por: fulano 02/05/2023 as 16:30 Rua 12 de janeiro,Girassol "
+                    />
+
+                <TextView android:id="@+id/babadescrição3"
+
+                    android:textSize="14sp"
+                    android:shadowRadius="4"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="4"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="132dp"
+                    android:layout_marginTop="471dp"
+                    android:layout_width="224dp"
+                    android:layout_height="128dp"
+                    android:text="Nome do baba A 3km (4/11) jogadores
+
+
+                    Organizado por: fulano 02/05/2023 as 16:30 Rua 12 de janeiro,Girassol "
+                    />
+
+                <ImageView android:id="@+id/back"
+                    android:src="@drawable/back_icon"
+                    android:contentDescription="vector_ek1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="634dp"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

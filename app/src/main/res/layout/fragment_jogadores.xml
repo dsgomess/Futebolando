@@ -1,0 +1,224 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		lista_dejogadores
+     *	@date 		Sunday 18th of June 2023 03:10:58 PM
+     *	@title 		lista de jogadores
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/lista_dejogadores"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout android:id="@+id/page_lista_dejogadores"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View
+                    android:id="@+id/_bg__lista_dejogadores_ek2"
+                    android:layout_width="410dp"
+                    android:layout_height="730dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/greenbg" />
+
+                <View   android:id="@+id/rectangle1"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="218dp"
+                    android:layout_width="380dp"
+                    android:layout_height="114dp" />
+
+                <View   android:id="@+id/rectangle2"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="345dp"
+                    android:layout_width="380dp"
+                    android:layout_height="114dp" />
+
+                <View   android:id="@+id/rectangle3"
+                    android:background="@drawable/rectangle"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="469dp"
+                    android:layout_width="380dp"
+                    android:layout_height="114dp" />
+
+                <View   android:id="@+id/searchbar"
+                    android:background="@drawable/busca_barra"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="108dp"
+                    android:layout_width="320dp"
+                    android:layout_height="32dp" />
+
+                <ImageView android:id="@+id/search_icon"
+                    android:src="@drawable/baseline_search_24"
+                    android:contentDescription="_9035943_search_sharp_icon_1"
+                    android:layout_marginStart="310dp"
+                    android:layout_marginTop="111dp"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/descrição"
+
+                    android:layout_width="135dp"
+                    android:layout_height="89dp"
+                    android:layout_marginLeft="129dp"
+                    android:layout_marginTop="230dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="4"
+                    android:shadowRadius="4"
+                    android:text="Fulaninho
+Posição: Meia
+Idade: 21
+Avaliação : 3,5/5"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/descrição2"
+
+                    android:layout_width="135dp"
+                    android:layout_height="89dp"
+                    android:layout_marginLeft="129dp"
+                    android:layout_marginTop="350dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="4"
+                    android:shadowRadius="4"
+                    android:text="Fulaninho
+Posição: Meia
+Idade: 21
+Avaliação : 3,5/5"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/descrição3"
+
+                    android:layout_width="135dp"
+                    android:layout_height="89dp"
+                    android:layout_marginLeft="129dp"
+                    android:layout_marginTop="480dp"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="4"
+                    android:shadowRadius="4"
+                    android:text="Fulaninho
+Posição: Meia
+Idade: 21
+Avaliação : 3,5/5"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <ImageView android:id="@+id/_1564534_customer_man_user_account_profile_icon_1"
+                    android:src="@drawable/avataruser"
+                    android:contentDescription="_1564534_customer_man_user_account_profile_icon_1"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="220dp"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp" />
+
+                <ImageView android:id="@+id/_1564534_customer_man_user_account_profile_icon_2"
+                    android:src="@drawable/avataruser"
+                    android:contentDescription="_1564534_customer_man_user_account_profile_icon_2"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="350dp"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp" />
+
+                <ImageView android:id="@+id/_1564534_customer_man_user_account_profile_icon_3"
+                    android:src="@drawable/avataruser"
+                    android:contentDescription="_1564534_customer_man_user_account_profile_icon_2"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="472dp"
+                    android:layout_width="95dp"
+                    android:layout_height="95dp" />
+
+                <View   android:id="@+id/rectanglecall"
+                    android:background="@drawable/rectanglecall"
+                    android:layout_marginStart="285dp"
+                    android:layout_marginTop="250dp"
+                    android:layout_width="70dp"
+                    android:layout_height="27dp" />
+
+                <View   android:id="@+id/rectanglecall2"
+                    android:background="@drawable/rectanglecall"
+                    android:layout_marginStart="285dp"
+                    android:layout_marginTop="370dp"
+                    android:layout_width="70dp"
+                    android:layout_height="27dp" />
+
+                <View   android:id="@+id/rectanglecall3"
+                    android:background="@drawable/rectanglecall"
+                    android:layout_marginStart="285dp"
+                    android:layout_marginTop="500dp"
+                    android:layout_width="70dp"
+                    android:layout_height="27dp" />
+
+                <TextView android:id="@+id/chamar_ek1"
+
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="294dp"
+                    android:layout_marginTop="251dp"
+                    android:layout_width="80dp"
+                    android:layout_height="31dp"
+                    android:text="Chamar"
+                    />
+
+                <TextView android:id="@+id/chamar_ek2"
+
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="294dp"
+                    android:layout_marginTop="371dp"
+                    android:layout_width="80dp"
+                    android:layout_height="31dp"
+                    android:text="Chamar"
+                    />
+
+                <TextView android:id="@+id/chamar_ek3"
+
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="294dp"
+                    android:layout_marginTop="501dp"
+                    android:layout_width="80dp"
+                    android:layout_height="31dp"
+                    android:text="Chamar"
+                    />
+
+                <ImageView android:id="@+id/vector_ek1"
+                    android:src="@drawable/back_icon"
+                    android:contentDescription="vector_ek1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="634dp"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

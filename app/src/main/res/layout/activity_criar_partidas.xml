@@ -1,0 +1,160 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		criar_partidas
+     *	@date 		Sunday 18th of June 2023 03:31:07 PM
+     *	@title 		criarpartidas
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/criar_partidas"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+
+
+            <RelativeLayout android:id="@+id/page_criar_partidas_ek1"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/_bg__criar_partidas_ek2"
+                    android:background="@color/greenbg"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="410dp"
+                    android:layout_height="730dp" />
+
+                <TextView android:id="@+id/titulo"
+
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="173dp"
+                    android:layout_width="129dp"
+                    android:layout_height="27dp"
+                    android:text="Titulo"
+                    />
+
+                <TextView android:id="@+id/data"
+
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="239dp"
+                    android:layout_width="84dp"
+                    android:layout_height="35dp"
+                    android:text="Data"
+                    />
+
+                <TextView android:id="@+id/quantidade_m_xima_de_jogadores"
+
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="306dp"
+                    android:layout_width="178.5dp"
+                    android:layout_height="46.5dp"
+                    android:text="Quantidade Maxima de Jogadores"
+                    />
+
+                <TextView android:id="@+id/jogadores_por_time"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="364dp"
+                    android:layout_width="178.5dp"
+                    android:layout_height="32.5dp"
+                    android:text="Jogadores por Time"
+                    />
+
+                <TextView android:id="@+id/local_"
+
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="416dp"
+                    android:layout_width="73dp"
+                    android:layout_height="37dp"
+                    android:text="Local"
+                    />
+
+                <View   android:id="@+id/titulo1"
+                    android:background="@drawable/busca_barra"
+                    android:layout_marginStart="88dp"
+                    android:layout_marginTop="175dp"
+                    android:layout_width="149dp"
+                    android:layout_height="23dp" />
+
+                <View   android:id="@+id/data1"
+                    android:background="@drawable/busca_barra"
+                    android:layout_marginStart="91dp"
+                    android:layout_marginTop="240dp"
+                    android:layout_width="149dp"
+                    android:layout_height="23dp" />
+
+                <View   android:id="@+id/qtdmjogadores"
+                    android:background="@drawable/busca_barra"
+                    android:layout_marginStart="207dp"
+                    android:layout_marginTop="310dp"
+                    android:layout_width="69dp"
+                    android:layout_height="21dp" />
+
+                <View   android:id="@+id/jogadoresportime"
+                    android:background="@drawable/busca_barra"
+                    android:layout_marginStart="207dp"
+                    android:layout_marginTop="364dp"
+                    android:layout_width="69dp"
+                    android:layout_height="21dp" />
+
+                <View   android:id="@+id/creatematchbutton"
+                    android:background="@drawable/rectanglecall"
+                    android:layout_marginStart="261dp"
+                    android:layout_marginTop="601dp"
+                    android:layout_width="70dp"
+                    android:layout_height="27dp" />
+
+
+                <TextView android:id="@+id/criar"
+
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="277dp"
+                    android:layout_marginTop="603dp"
+                    android:layout_width="75dp"
+                    android:layout_height="36dp"
+                    android:text="Criar"
+                    />
+
+                <ImageView android:id="@+id/vector_e115"
+                    android:src="@drawable/back_icon"
+                    android:contentDescription="vector_ek1"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="634dp"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
